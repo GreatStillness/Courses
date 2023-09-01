@@ -1,0 +1,42 @@
+Q: How are "collection" variables different from normal variables?
+A: Collection variables can store multiple values in a single variable
+---
+Q: What are the Python keywords used to construct a loop to iterate through a list?
+A: for / in
+---
+Q: For the following list, how would you print out 'Sally'?
+friends = [ 'Joseph', 'Glenn', 'Sally' ]
+A: print(friends[2])
+---
+Q: What would the following Python code print out?
+fruit = 'Banana'
+fruit[0] = 'b'
+print(fruit)
+A: Nothing would print - the program fails with a traceback error
+---
+Q: Which of the following Python statements would print out the length of a list stored in the variable data?
+A: print(len(data))
+---
+Q: What type of data is produced when you call the range() function?
+x = list(range(5))
+A: A list of integers
+---
+Q: What does the following Python code print out?
+a = [1, 2, 3]
+b = [4, 5, 6]
+c = a + b
+print(len(c))
+A: 6
+---
+Q: Which of the following slicing operations will produce the list [12, 3]?
+t = [9, 41, 12, 3, 74, 15]
+A: t[2:4]
+---
+Q: What list method adds a new item to the end of an existing list?
+A: append()
+---
+Q: What will the following Python code print out?
+friends = [ 'Joseph', 'Glenn', 'Sally' ]
+friends.sort()
+print(friends[0])
+A: Glenn
