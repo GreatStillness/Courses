@@ -4,6 +4,7 @@ def computepay(h, r):
     else:
         return h * r
 
+
 hours = float(input("Enter Hours:"))
 rate = float(input("Enter Rate:"))
 p = computepay(hours, rate)

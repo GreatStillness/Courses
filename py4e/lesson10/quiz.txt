@@ -1,0 +1,44 @@
+Q: How are Python dictionaries different from Python lists?
+A: Python lists maintain order and dictionaries do not maintain order
+---
+Q: How are Python dictionaries different from Python lists?
+A: Python lists are indexed using integers and dictionaries can use strings as indexes
+---
+Q: What is a term commonly used to describe the Python dictionary feature in other programming languages?
+A: Associative arrays
+---
+Q: What would the following Python code print out?
+stuff = dict()
+print(stuff['candy'])
+A: The program would fail with a traceback
+---
+Q: What would the following Python code print out?
+stuff = dict()
+print(stuff.get('candy',-1))
+A: -1
+---
+Q: (T/F) When you add items to a dictionary they remain in the order in which you added them.
+A: False
+---
+Q: What is a common use of Python dictionaries in a program?
+A: Building a histogram counting the occurrences of various strings in a file
+---
+Q: Which of the following lines of Python is equivalent to the following sequence of statements assuming that counts is a dictionary?
+if key in counts:
+    counts[key] = counts[key] + 1
+else:
+    counts[key] = 1
+A: counts[key] = counts.get(key,0) + 1
+---
+Q: In the following Python, what does the for loop iterate through?
+x = dict()
+...
+for y in x :
+     ...
+A: It loops through the keys in the dictionary
+---
+Q: Which method in a dictionary object gives you a list of the values in the dictionary?
+A: values()
+---
+Q: What is the purpose of the second parameter of the get() method for Python dictionaries?
+A: To provide a default value if the key is not found

@@ -13,6 +13,6 @@ elif score >= 0.8:
 elif score >= 0.7:
     print("C")
 elif score >= 0.6:
-     print("D")
+    print("D")
 else:
     print("F")
