@@ -1,6 +1,6 @@
 filename = input("Enter file: ")
 if len(filename) < 1:
-    name = "mbox-short.txt"
+    filename = "mbox-short.txt"
 
 try:
     filehandle = open(filename)
