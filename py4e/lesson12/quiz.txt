@@ -1,0 +1,26 @@
+Q: What character do you add to the "+" or "*" to indicate that the match is to be done in a non-greedy manner?
+A: ?
+---
+Q: What will the '$' regular expression match?
+A: The end of a line
+---
+Q: What would the following mean in a regular expression? [a-z0-9]
+A: Match a lowercase letter or a digit
+---
+Q: What is the type of the return value of the re.findall() method?
+A: A list of strings
+---
+Q: What is the "wild card" character in a regular expression (i.e., the character that matches any character)?
+A: .
+---
+Q: What is the difference between the "+" and "*" character in regular expressions?
+A: The "+" matches at least one character and the "*" matches zero or more characters
+---
+Q: What does the "[0-9]+" match in a regular expression?
+A: One or more digits
+---
+Q: What does the following Python sequence print out?
+x = 'From: Using the : character'
+y = re.findall('^F.+:', x)
+print(y)
+A: ['From: Using the :']
