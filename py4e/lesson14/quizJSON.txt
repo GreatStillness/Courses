@@ -1,0 +1,62 @@
+Q: Who is credited with getting the JSON movement started?
+A: Douglas Crockford
+---
+Q: Who is credited with the REST approach to web services?
+A: Roy Fielding
+---
+Q: What Python library do you have to import to parse and handle JSON?
+A: import json
+---
+Q: Which of the following is true about an API?
+A: An API is a contract that defines how to use a software library
+---
+Q: What is the method used to parse a string containing JSON data so that you can work with the data in Python?
+A: json.loads()
+---
+Q: Which of the following is a web services approach used by the Twitter API?
+A: REST
+---
+Q: What kind of variable will you get in Python when the following JSON is parsed:
+[ "Glenn", "Sally", "Jen" ]
+A: A list with three items
+---
+Q: What kind of variable will you get in Python when the following JSON is parsed:
+{ "id" : "001",
+  "x" : "2",
+  "name" : "Chuck"
+}
+A: A dictionary with three key / value pairs
+---
+Q: Which of the following is not true about the service-oriented approach?
+A: An application runs together all in one place
+---
+Q: If the following JSON were parsed and put into the variable x,
+{
+    "users": [
+        {
+            "status": {
+                "text": "@jazzychad I just bought one .__.",
+             },
+             "location": "San Francisco, California",
+             "screen_name": "leahculver",
+             "name": "Leah Culver",
+         },
+   ...
+what Python code would extract "Leah Culver" from the JSON?
+A: x["users"][0]["name"]
+---
+Q: Which of these two web service approaches is preferred in most modern service-oriented applications?
+A: REST - Representational state transfer
+---
+Q: What library call do you make to append properly encoded parameters to the end of a URL like the following:
+http://maps.googleapis.com/maps/api/geocode/json?sensor=false&address=Ann+Arbor%2C+MI
+A: urllib.parse.urlencode()
+---
+Q: What happens when you exceed the Google geocoding API rate limit?
+A: You cannot use the API for 24 hours
+---
+Q: What protocol does Twitter use to protect its API?
+A: OAuth
+---
+Q: What header does Twitter use to tell you how many more API requests you can make before you will be rate limited?
+A: x-rate-limit-remaining
