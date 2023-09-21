@@ -1,0 +1,29 @@
+Q: What is the primary added value of relational databases over flat files?
+A: Ability to scan large amounts of data quickly
+---
+Q: What is the purpose of a primary key?
+A: To look up a particular row in a table very quickly
+---
+Q: Which of the following is NOT a good rule to follow when developing a database model?
+A: Use a person's email address as their primary key
+---
+Q: If our user interface (i.e., like iTunes) has repeated strings on one column of the user interface, how should we model this properly in a database?
+A: Make a table that maps the strings in the column to numbers and then use those numbers in the column
+---
+Q: Which of the following is the label we give a column that the "outside world" uses to look up a particular row?
+A: Logical key
+---
+Q: What is the label we give to a column that is an integer and used to point to a row in a different table?
+A: Foreign key
+---
+Q: What SQLite keyword is added to primary keys in a CREATE TABLE statement to indicate that the database is to provide a value for the column when records are inserted?
+A: AUTOINCREMENT
+---
+Q: What is the SQL keyword that reconnects rows that have foreign keys with the corresponding data in the table that the foreign key points to?
+A: JOIN
+---
+Q: What happens when you JOIN two tables together without an ON clause?
+A: The number of rows you get is the number of rows in the first table times the number of rows in the second table
+---
+Q: When you are doing a SELECT with a JOIN across multiple tables with identical column names, how do you distinguish the column names?
+A: tablename.columnname
