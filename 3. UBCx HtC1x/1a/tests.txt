@@ -1,0 +1,4 @@
+Q: When we want to compute the average of 4, 6.2 and -12, all three of the following expressions evaluate to the correct result. Which expression do you think is the best, and why?
+A: (/ (+ 4 6.2 -12) 3)
+Explanation: It reflects the initial task the most.
+---
