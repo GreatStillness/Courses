@@ -1,0 +1,7 @@
+t1,TITLE,OpenAi
+t2,TITLE,Musk
+t3,TITLE,Tesla
+t4,TITLE,Dana White
+t5,AFTER,3 Oct 2023 00:00:00
+t6,AND,t4,t5
+ADD,t1,t2,t3,t6
