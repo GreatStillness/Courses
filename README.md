@@ -14,3 +14,11 @@ Courses taken:
    Link: https://www.edx.org/learn/coding/university-of-british-columbia-how-to-code-simple-data
    Started: 25/11/2023
    Completed:
+
+
+
+...
+n. Full Stack Open
+   Link: https://fullstackopen.com/en/
+   Started: 23/11/2023 (in parallel with other courses)
+   Completed:
