@@ -1,0 +1,94 @@
+-----
+HtDF (How to Design Functions):
+The HtDF recipe consists of the following steps:
+1. Signature (input data type -> output data type), purpose (description) and stub (signature + function name + default value as output).
+2. Define examples, wrap each in check-expect (test cases).
+3. Template and inventory.
+4. Code the function body.
+5. Test and debug until correct
+NOTE:
+Each of these steps build on the ones that precede it. The signature helps write the purpose, the stub, and the check-expects; it also helps code the body. The purpose helps write the check-expects and code the body. The stub helps to write the check-expects. The check-expects help to code the body as well as to test the complete design.
+It is sometimes helpful to do the steps in a different order. Sometimes it is easier to write examples first, then do signature and purpose. Often at some point during the design you may discover an issue or boundary condition you did not anticipate, at that point go back and update the purpose and examples accordingly. But you should never write the function definition first and then go back and do the other recipe elements -- for some of you that will work for simple functions, but you will not be able to do that for the complex functions later in the course!
+Throughout the HtDF process be sure to "run early and run often". Run your program whenever it is well-formed. The more often you press run the sooner you can find mistakes. Finding mistakes one at a time is much easier than waiting until later when the mistakes can compound and be more confusing. Run, run, run!
+-----
+HtDD (How to Design Data)
+Data definitions are a driving element in the design recipes.
+
+A data definition establishes the represent/interpret relationship between information and data:
+
+Information in the program's domain is represented by data in the program.
+Data in the program can be interpreted as information in the program's domain.
+A data definition must describe how to form (or make) data that satisfies the data definition and also how to tell whether a data value satisfies the data definition. It must also describe how to represent information in the program's domain as data and interpret a data value as information.
+
+So, for example, one data definition might say that numbers are used to represent the Speed of a ball. Another data definition might say that numbers are used to represent the Height of an airplane. So given a number like 6, we need a data definition to tell us how to interpret it: is it a Speed, or a Height or something else entirely. Without a data definition, the 6 could mean anything.
+
+The first step of the recipe is to identify the inherent structure of the information.
+
+A data definition consists of four or five elements:
+1. A possible structure definition (only for compound data).
+2. A type comment that defines a new type name and describes how to form data of that type (e.g. TrafficLight is Number)
+3. An interpretation that describes the correspondence between information and data. (e.g. TrafficLight denotes one of possible traffic lights (and the corresponding mapping))
+4. One or more examples of the data.
+5. A template for a 1 argument function operating on data of this type (different templates for different data types).
+-----
+HtDW (How to Design Worlds)
+The How to Design Worlds process provides guidance for designing interactive world programs using big-bang.
+While some elements of the process are tailored to big-bang, the process can also be adapted to the design of other interactive programs.
+The wish-list technique can be used in any multi-function program.
+
+World program design is divided into two phases, each of which has sub-parts:
+
+1. Domain analysis (use a piece of paper!)
+1.1. Sketch program scenarios
+1.2 Identify constant information
+1.3 Identify changing information
+1.4 Identify big-bang options
+2. Build the actual program
+2.1 Constants (based on 1.2 above)
+2.2 Data definitions using HtDD (based on 1.3 above)
+2.3 Functions using HtDF
+2.3.1 main first (based on 1.3, 1.4 and 2.2 above)
+2.3.2 wish list entries for big-bang handlers
+2.4 Work through wish list until done
+
+Template for a world program:
+(require 2htdp/image)
+(require 2htdp/universe)
+
+;; My world program  (make this more specific)
+
+;; =================
+;; Constants:
+
+
+;; =================
+;; Data definitions:
+
+;; WS is ... (give WS a better name)
+
+
+
+;; =================
+;; Functions:
+
+;; WS -> WS
+;; start the world with ...
+;;
+(define (main ws)
+  (big-bang ws                   ; WS
+            (on-tick   tock)     ; WS -> WS
+            (to-draw   render)   ; WS -> Image
+            (stop-when ...)      ; WS -> Boolean
+            (on-mouse  ...)      ; WS Integer Integer MouseEvent -> WS
+            (on-key    ...)))    ; WS KeyEvent -> WS
+
+;; WS -> WS
+;; produce the next ...
+;; !!!
+(define (tock ws) ...)
+
+
+;; WS -> Image
+;; render ...
+;; !!!
+(define (render ws) ...)
