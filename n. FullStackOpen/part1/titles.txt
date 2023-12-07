@@ -1,0 +1,12 @@
+- Node.js - JavaScript runtime environment
+- DOM (Document Object Model) - API that enables programmatic modification of the element trees corresponding to web pages
+- AJAX (Asynchronous JavaScript and XML) - a set of web development techniques which allow to send and retrieve data
+from a server asynchronously without interfering with the display and behavior of the existing page.
+AJAX allows for the page to update dynamically, reducing the need for full page refreshes.
+- SPA (Single-page application) - an application consisting only from one HTML page fetched from the server,
+the contents of which are manipulated with JavaScript that executes in the browser.
+- Vite - FE build tool
+- ECMAScript - specification (standard) for JavaScript
+- JSX (JavaScript XML) - syntax extension for JavaScript which allows to write HTML-like JavaScript code.
+- Babel - Tool for JavaScript that is mainly used to convert EcmaScript 2015+ code into a backwards compatible
+version of JavaScript that can be run by older JavaScript engines.

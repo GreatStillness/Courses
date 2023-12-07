@@ -1,0 +1,9 @@
+Initially set up an app using npm and Vite:
+npm create vite@latest <directory_name> -- --template react
+cd <directory_name>
+npm install
+---
+Start React app:
+npm run dev
+-- Run JavaScript file with node:
+node <file_name>
