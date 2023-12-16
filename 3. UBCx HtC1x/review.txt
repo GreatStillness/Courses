@@ -1,0 +1,29 @@
+Have mixed feeling about this course.
+Pros:
+1. Usage of BSL allows to focus on learning how to design.
+2. has very good formalization of defining a function. Common template (Signature, Purpose, Stub, tests/examples, template, coding and testing)
+    also enforces TDD.
+3. focuses on difference between information and data as its representation.
+4. templates allows to simplify development of more complex logic by restricting you.
+5. World program allows to create moderately complex animations with simplicity.
+6. Interesting way to see recursion in collections and self-referenced data.
+
+However, cons:
+1. Using BSL is not very practical as it is not actively used in industry. Also, the course focuses more on design than
+    on language. However, you still need to know language's API to write functions, so you need to invest your time to learn it.
+2. Some bad or outdated practices which should be avoided (and it is crucial for design course). For example,
+    2.1. Using too short names which are not descriptive (for instance, object Player with fn (first name) and
+        ls (last name) fields) and describing them in the comment near data definition instead of making descriptive names right away.
+    2.2. When testing a function, using expressions from the function itself to generate expected result. As tests are also
+        examples, it seems right, however, it does not show what we are actually expecting. Sometimes generation of expected
+        used the tested function itself which I just cannot comment.
+    2.3. The same generation of expected for rendering is even worse as you do not see from tests what image is generated.
+        It backfired to the course creators themselves because in a problem with rendering binary search tree (module 6) with lines
+        they forgot to remove lines if there are no child nodes anymore. But the tests passed ¯\_(ツ)_/¯
+3. Contradictory introduction to efficiency. Binary Search Trees was introduced to allow more efficient search of items
+    in a collection. That's good. However, the course sticks to templates and allows more recursive calls than necessary
+    when writing recursive calls. For instance, the same rendering of Binary Search Trees calls itself 4(!) times instead
+    of two (two more just to calculate width of generated left/right subtree image).
+
+Cannot recommend course for experience developers as there is nothing new or useful (till the module 4a (self-reference)
+at most). However, for complete beginners there are some insights.
