@@ -1,0 +1,3 @@
+Good introduction to programming from computer science side. Mostly focuses on procedural aspects and touches
+computational complexity. But as it focuses on computer science aspects, cannot say it is very useful for beginners
+in common software development.

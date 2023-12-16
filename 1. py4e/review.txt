@@ -1,0 +1,2 @@
+Great introduction to software engineering. Touches a lot of useful things like collections and regexes. Also touches
+basics of networking, databases and other applications, which could be very useful for starters.
