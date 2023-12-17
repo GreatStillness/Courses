@@ -13,8 +13,11 @@ Courses taken:
 3. How to Code: Simple Data
    Link: https://www.edx.org/learn/coding/university-of-british-columbia-how-to-code-simple-data
    Started: 25/11/2023
+   Completed: 16/12/2023
+4. How to Code: Complex Data
+   Link: https://www.edx.org/learn/coding/university-of-british-columbia-how-to-code-complex-data
+   Started: 17/12/2023
    Completed:
-
 
 
 ...
