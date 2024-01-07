@@ -19,6 +19,11 @@ Courses taken:
    Started: 17/12/2023
    Completed:
 
+c. Single Variable Calculus
+Link: https://ocw.mit.edu/courses/18-01sc-single-variable-calculus-fall-2010/
+Started: 05/01/2024
+Completed:
+
 
 ...
 n. Full Stack Open
