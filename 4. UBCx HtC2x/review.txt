@@ -1,0 +1,9 @@
+Have the same mixed feelings about this course, as about the previous part. Regarding the first part:
+Additional pros:
+- Thanks to templates, complex recursive functions are written with ease. That is indeed a power of this course.
+Additional cons:
+- These functions are easy to write and hard to read/maintain. The instructor does not bother to use meaningful naming.
+- Now I am pretty sure that Racket is a bad choice for this course. As more complex requirements appear, ordinary things
+from other languages (e.g., local definitions and pointers) are becoming necessary. Also, multiply complex logic and
+bad naming by the hard-readable Racket itself, and you will get a lot of time trying to track types of passed objects
+or to balance parentheses in the right way.
