@@ -17,6 +17,14 @@ Courses taken:
 4. How to Code: Complex Data
    Link: https://www.edx.org/learn/coding/university-of-british-columbia-how-to-code-complex-data
    Started: 17/12/2023
+   Completed: 18/01/2024
+5. Programming Languages: Part A
+   Link: https://www.coursera.org/learn/programming-languages
+   Started: 19/01/2024
+   Completed:
+8. Object-Oriented Design
+   Link: www.coursera.org/learn/object-oriented-design
+   Started: 19/01/2024
    Completed:
 
 c. Single Variable Calculus

@@ -1,0 +1,35 @@
+Q: Which of these are desirable characteristics of a software design?
+A: flexible/reusability/maintainability
+---
+Q: Identify two outcomes of the design process.
+A: technical design/conceptual design
+---
+Q: You are writing out a CRC card for a bank machine component. Under which section should you put "Track Cash Remaining."
+A: Responsibility
+---
+Q: Which two of these are likely to be  a part of conceptual design?
+A: Mockups/CRC Cards
+---
+Q: When during the design process are you likely to produce CRC cards the most?
+A: conceptual design
+---
+Q: Which of the following are examples of non-functional requirements?
+A: performance/security/availability
+---
+Q: Select the three categories of objects generally present in object-oriented software.
+A: boundary/control/entity
+---
+Q: An object which is responsible for showing data to the user could be considered which category of object?
+A: boundary
+---
+Q: You are planning a Professor class as part of your software design. Which of these will you consider a collaborator?
+A: Student/Course
+---
+Q: What is a requirement of this form called? "As a ____, I want to ____, so that ____".
+A: user story
+---
+Q: You are a programmer creating software for a bank machine system. Which section of a CRC card for the bank machine component will the "User" go into?
+A: Collaborator
+---
+Q: During conceptual design, you will talk about...
+A: tradeoffs/mockups
